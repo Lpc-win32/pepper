@@ -8,16 +8,17 @@ Linux C++(C++11)
 
 计划pepper框架中包含如下模块：
 
-- 底层协程库: libpc
+- 底层协程库: libpc (ok)
 - 服务发现: etcd client
 - 协议双向兼任: proto buffer
-- 缓存数据库: redis client
+- 缓存数据库: redis client (ok)
 - 数据库: mysql client
 - http服务: fast cgi
 - 项目运行: 前台/后台
 - 日志管理: libpc已实现
-- 配置文件解析: pcl
+- 配置文件解析: pcl (ok)
 - RPC模块
+- 消息队列中间件: RabbitMQ Client
 
 ## 目前已实现
 
